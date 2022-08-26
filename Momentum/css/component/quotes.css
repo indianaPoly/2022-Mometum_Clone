@@ -1,0 +1,9 @@
+#quote{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: 5px solid black;
+    border-radius: 15px;
+    top: 80%;
+}

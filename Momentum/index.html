@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    <div id="mainDiv">
+        <!-- 내가 추가하고 싶은 기능들임. -->
+        <!-- 시작할 때 내가 만든 웹페이지 바로 열리도록 설정하기 -->
+        <!-- 내가 자주사용하는 아이콘 넣기 -->
+        <!-- 링크 저장하기 -->
+        <!-- 유튜브 영상 넣기 혹은 음원파일 가져와서 넣기 -->
+        <div class="layer1"></div>
+        <div class="layer2"></div>
+        <div class="layer3"></div>
+        
+        <div class="date">
+            <span class="date-date"></span>
+            <h2 class="date-clock"></h2>
+        </div>
+        
+        <form id="login-form" class="hidden">
+            <input required maxlength="15" type="text" placeholder="What is your name?">
+            <input type="submit" value="Log in">
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="modal">
+            <div class="modal_body">Modal</div>
+            <button class="modal_close">X</button>
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To do and Press Enter">
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+        <button class="btn-open-popup">To Do List</button>
+
+    </div>
+    <!-- <script src="js/greeting.js"></script> -->
+    <script src="js/Date.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/modal.js"></script>
+    <!-- <script src="js/weather.js"></script> -->
+</body>
+</html>
