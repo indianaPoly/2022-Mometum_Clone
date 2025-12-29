@@ -25,7 +25,7 @@ const quotes = [
     },
     {
         quote: "신은 용기있는자를 결코 버리지 않는다.",
-        author: "켄러"   
+        author: "켄러"
     },
     {
         quote: "행복의 문이 하나 닫히면 다른 문이 열린다. 그러나 우리는 종종 닫힌 문을 멍하니 바라본다.",
@@ -50,5 +50,6 @@ const author = document.querySelector("#quote span:last-child");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerHTML = todaysQuote.quote;
-author.innerHTML = todaysQuote.author;
+quote.textContent = todaysQuote.quote;
+author.textContent = todaysQuote.author;
+
